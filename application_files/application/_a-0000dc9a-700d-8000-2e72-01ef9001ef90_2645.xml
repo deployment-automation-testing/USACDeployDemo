@@ -41,7 +41,11 @@
                 </item>
                 <item>
                     <type>content</type>
-                    <uuids/>
+                    <uuids>
+                        <uuid>_a-0000dc9a-81e8-8000-2e72-01ef9001ef90_2662</uuid>
+                        <uuid>_a-0000dc9a-81e8-8000-2e72-01ef9001ef90_2663</uuid>
+                        <uuid>_a-0000dc9a-81e8-8000-2e72-01ef9001ef90_2664</uuid>
+                    </uuids>
                 </item>
                 <item>
                     <type>forum</type>
