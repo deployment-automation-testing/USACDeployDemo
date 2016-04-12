@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskReportHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <taskReport name="Task Report" a:uuid="30b31bfe-aa89-4122-99c8-23408a2af738">
+        <a:description></a:description>
+        <a:uiExpr>=#&quot;_a-0000dc59-a427-8000-ba62-01ef9001ef90_2442&quot;()</a:uiExpr>
+        <a:urlStub>oh5qkw</a:urlStub>
+    </taskReport>
+    <roleMap>
+        <role name="report_viewer">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000dc59-058c-8000-ba62-011e94011e94_7</groupUuid>
+            </groups>
+        </role>
+    </roleMap>
+</taskReportHaul>

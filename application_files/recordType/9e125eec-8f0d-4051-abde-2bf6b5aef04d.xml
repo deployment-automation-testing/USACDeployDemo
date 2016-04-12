@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<recordTypeHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <recordType name="Automated Test Grid" a:uuid="9e125eec-8f0d-4051-abde-2bf6b5aef04d">
+        <a:pluralName>Automated Test Grid</a:pluralName>
+        <a:description>Grid View for automated testing Records</a:description>
+        <a:urlStub>_QKPEQ</a:urlStub>
+        <a:source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="a:DataStoreEntity" a:uuid="74a2f58d-a860-4446-9e88-73d6d983f9d0@_a-0000dc59-a427-8000-ba62-01ef9001ef90_2437"/>
+        <a:listViewTemplateExpr>#&quot;SYSTEM_SYSRULES_recordGridLayoutColumns&quot;(
+  columns: {
+    #&quot;SYSTEM_SYSRULES_gridLayoutColumn&quot;(
+      label: &quot;Title&quot;,
+      field: &quot;testText&quot;,
+      component: #&quot;SYSTEM_SYSRULES_recordGrid_linkField&quot;(
+        links: #&quot;SYSTEM_SYSRULES_recordLink&quot;(   
+          label: rf!testText,
+          recordType: rp!type,
+          identifier: rp!id
+        )
+      )
+    ),
+    #&quot;SYSTEM_SYSRULES_gridLayoutColumn&quot;(
+      label: &quot;Quantity&quot;,
+      field: &quot;testInt&quot;,
+      component: #&quot;SYSTEM_SYSRULES_recordGrid_integerField&quot;(
+        displayValue: rf!testInt,
+        align: &quot;RIGHT&quot;
+      )
+    ),
+    #&quot;SYSTEM_SYSRULES_gridLayoutColumn&quot;(
+      label: &quot;Price&quot;,
+      field: &quot;testDecimal&quot;,
+      component: #&quot;SYSTEM_SYSRULES_recordGrid_floatingPointField&quot;(
+        displayValue: rf!testDecimal,
+        align: &quot;RIGHT&quot;
+      )
+    ),
+    #&quot;SYSTEM_SYSRULES_gridLayoutColumn&quot;(
+      label: &quot;Start Date&quot;,
+      field: &quot;testDateTime&quot;,
+      component: #&quot;SYSTEM_SYSRULES_recordGrid_dateTimeField&quot;(
+        displayvalue: rf!testDateTime
+      )
+    )  
+  },
+  pageSize: 10,
+  defaultSort: #&quot;SYSTEM_SYSRULES_sortInfo&quot;(
+    field: &quot;testID&quot;,
+    ascending: false
+  )
+)</a:listViewTemplateExpr>
+        <a:detailViewCfg>
+            <a:nameExpr>=&quot;Summary&quot;</a:nameExpr>
+            <a:uiExpr>#&quot;_a-0000dc59-a427-8000-ba62-01ef9001ef90_2439&quot;(&#xD;
+  testData: #&quot;_a-0000dc59-a427-8000-ba62-01ef9001ef90_2445&quot;(rf!testID) )</a:uiExpr>
+            <a:visibilityExpr>=true()</a:visibilityExpr>
+            <a:urlStub>summary</a:urlStub>
+            <a:headerExpr></a:headerExpr>
+        </a:detailViewCfg>
+        <a:isSystem>false</a:isSystem>
+        <a:dataSrcExpr></a:dataSrcExpr>
+        <a:facetsListExpr></a:facetsListExpr>
+        <a:titleExpr></a:titleExpr>
+        <a:defaultFiltersExpr></a:defaultFiltersExpr>
+        <a:layoutType>GRID</a:layoutType>
+        <a:security>16383</a:security>
+    </recordType>
+    <roleMap>
+        <role name="record_type_administrator">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000dc5b-1c90-8000-ba62-011e94011e94_8</groupUuid>
+            </groups>
+        </role>
+        <role name="record_type_viewer">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000dc59-058c-8000-ba62-011e94011e94_7</groupUuid>
+            </groups>
+        </role>
+    </roleMap>
+</recordTypeHaul>
