@@ -1,24 +1,1331 @@
-Success (3):
-adminProperty conf.plugins.ENCRYPTION_API_ACCESS_LIST conf.plugins.ENCRYPTION_API_ACCESS_LIST "Encryption Service"
-adminProperty conf.userStartPages.DEFAULT_START_PAGE conf.userStartPages.DEFAULT_START_PAGE "Default Start Page"
-adminProperty conf.userStartPages.START_PAGES conf.userStartPages.START_PAGES "Start Pages"
+Success (15):
+group 9 _e-0000dbd2-ed23-8000-9aee-01075c01075c_11 "LDAP Users"
+group 11 _e-0000dc59-058c-8000-ba62-011e94011e94_7 "AUT All Users"
+group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 "AUT Administrators"
+content 2827 _a-0000dbe2-3890-8000-9ba2-011c48011c48_49587 "Automated Testing"
+content 2876 30af06cc-90d4-4be8-8682-342bdfc469c8 "AUT_TestForm"
+content 2873 _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004 "AUT_TestFormRow"
+content 2829 _a-0001dbef-826b-8000-9ba2-011c48011c48_56537 "Automated Testing"
+content 2830 _a-0001dbef-826b-8000-9ba2-011c48011c48_56538 "Automated Testing"
+content 2831 _a-0001dbef-826b-8000-9ba2-011c48011c48_56539 "Automated Testing"
+content 2874 _a-0001dbef-826b-8000-9ba2-011c48011c48_56540 "AUT_DocumentFolder"
+content 2875 _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056 "AUT_SuggestFunction"
+processModelFolder 7 _g-0000dc59-c9a6-8000-ba62-014d98014d98_2 "AUT Process Models"
+processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 "AUT Interfaces Model"
+page 22 _c-0000dc87-478b-8000-f2c6-017ce6017ce6_38 "Customd Dashboard Test"
+application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 "Simple App"
 
 Trace:
-2016-04-01 15:29:27.084 DEBUG adminProperty conf.plugins.ENCRYPTION_API_ACCESS_LIST conf.plugins.ENCRYPTION_API_ACCESS_LIST Begin transport.
-2016-04-01 15:29:27.084 DEBUG adminProperty conf.plugins.ENCRYPTION_API_ACCESS_LIST conf.plugins.ENCRYPTION_API_ACCESS_LIST Retrieving object data.
-2016-04-01 15:29:27.087 DEBUG adminProperty conf.plugins.ENCRYPTION_API_ACCESS_LIST conf.plugins.ENCRYPTION_API_ACCESS_LIST Setting uuids of object references.
-2016-04-01 15:29:27.093 DEBUG adminProperty conf.plugins.ENCRYPTION_API_ACCESS_LIST conf.plugins.ENCRYPTION_API_ACCESS_LIST Exporting binary resources.
-2016-04-01 15:29:27.093 DEBUG adminProperty conf.plugins.ENCRYPTION_API_ACCESS_LIST conf.plugins.ENCRYPTION_API_ACCESS_LIST Serializing object to XML.
-2016-04-01 15:29:27.105 DEBUG adminProperty conf.plugins.ENCRYPTION_API_ACCESS_LIST conf.plugins.ENCRYPTION_API_ACCESS_LIST Object transported.
-2016-04-01 15:29:27.105 DEBUG adminProperty conf.userStartPages.DEFAULT_START_PAGE conf.userStartPages.DEFAULT_START_PAGE Begin transport.
-2016-04-01 15:29:27.105 DEBUG adminProperty conf.userStartPages.DEFAULT_START_PAGE conf.userStartPages.DEFAULT_START_PAGE Retrieving object data.
-2016-04-01 15:29:27.113 DEBUG adminProperty conf.userStartPages.DEFAULT_START_PAGE conf.userStartPages.DEFAULT_START_PAGE Setting uuids of object references.
-2016-04-01 15:29:27.113 DEBUG adminProperty conf.userStartPages.DEFAULT_START_PAGE conf.userStartPages.DEFAULT_START_PAGE Exporting binary resources.
-2016-04-01 15:29:27.113 DEBUG adminProperty conf.userStartPages.DEFAULT_START_PAGE conf.userStartPages.DEFAULT_START_PAGE Serializing object to XML.
-2016-04-01 15:29:27.113 DEBUG adminProperty conf.userStartPages.DEFAULT_START_PAGE conf.userStartPages.DEFAULT_START_PAGE Object transported.
-2016-04-01 15:29:27.113 DEBUG adminProperty conf.userStartPages.START_PAGES conf.userStartPages.START_PAGES Begin transport.
-2016-04-01 15:29:27.113 DEBUG adminProperty conf.userStartPages.START_PAGES conf.userStartPages.START_PAGES Retrieving object data.
-2016-04-01 15:29:27.115 DEBUG adminProperty conf.userStartPages.START_PAGES conf.userStartPages.START_PAGES Setting uuids of object references.
-2016-04-01 15:29:27.115 DEBUG adminProperty conf.userStartPages.START_PAGES conf.userStartPages.START_PAGES Exporting binary resources.
-2016-04-01 15:29:27.115 DEBUG adminProperty conf.userStartPages.START_PAGES conf.userStartPages.START_PAGES Serializing object to XML.
-2016-04-01 15:29:27.116 DEBUG adminProperty conf.userStartPages.START_PAGES conf.userStartPages.START_PAGES Object transported.
+2016-04-07 14:52:58.826 DEBUG application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 Begin transport.
+2016-04-07 14:52:58.826 DEBUG application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 Retrieving object data.
+2016-04-07 14:52:58.829 DEBUG application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 App associated objects: [group=[_e-0000dc59-058c-8000-ba62-011e94011e94_7, _e-0000dbd2-ed23-8000-9aee-01075c01075c_11, _e-0000dc5b-1c90-8000-ba62-011e94011e94_8],content=[30af06cc-90d4-4be8-8682-342bdfc469c8, _a-0000dbe2-3890-8000-9ba2-011c48011c48_49587, _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004, _a-0001dbef-826b-8000-9ba2-011c48011c48_56540, _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056, _a-0001dbef-826b-8000-9ba2-011c48011c48_56539, _a-0001dbef-826b-8000-9ba2-011c48011c48_56538, _a-0001dbef-826b-8000-9ba2-011c48011c48_56537],processModelFolder=[_g-0000dc59-c9a6-8000-ba62-014d98014d98_2],processModel=[0002dc59-cccd-8000-ba62-014d98014d98],page=[_c-0000dc87-478b-8000-f2c6-017ce6017ce6_38]]
+2016-04-07 14:52:58.839 DEBUG application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 Invalid associated objects: []
+2016-04-07 14:52:58.839 DEBUG application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 Adding valid associated objects to be exported: GlobalBindingMap[group={_e-0000dc59-058c-8000-ba62-011e94011e94_7=11, _e-0000dbd2-ed23-8000-9aee-01075c01075c_11=9, _e-0000dc5b-1c90-8000-ba62-011e94011e94_8=10},content={30af06cc-90d4-4be8-8682-342bdfc469c8=2876, _a-0000dbe2-3890-8000-9ba2-011c48011c48_49587=2827, _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004=2873, _a-0001dbef-826b-8000-9ba2-011c48011c48_56540=2874, _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056=2875, _a-0001dbef-826b-8000-9ba2-011c48011c48_56539=2831, _a-0001dbef-826b-8000-9ba2-011c48011c48_56538=2830, _a-0001dbef-826b-8000-9ba2-011c48011c48_56537=2829},processModelFolder={_g-0000dc59-c9a6-8000-ba62-014d98014d98_2=7},processModel={0002dc59-cccd-8000-ba62-014d98014d98=12},page={_c-0000dc87-478b-8000-f2c6-017ce6017ce6_38=22}]
+2016-04-07 14:52:58.839 DEBUG application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 Setting uuids of object references.
+2016-04-07 14:52:58.839 DEBUG application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 Processing reference: Application.forum
+2016-04-07 14:52:58.84 DEBUG application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 Processing reference: Application.parent
+2016-04-07 14:52:58.845 DEBUG application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@79896efa[
+  ContentRole[name=readers,inherit=false,allowForAll=false]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,inherit=false,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=1:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-04-07 14:52:58.845 DEBUG application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2016-04-07 14:52:58.845 DEBUG application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2016-04-07 14:52:58.845 DEBUG application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 Processing reference: ContentRole[name=administrators,inherit=false,allowForAll=false]
+2016-04-07 14:52:58.845 DEBUG application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-04-07 14:52:58.845 DEBUG application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-04-07 14:52:58.845 DEBUG application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-04-07 14:52:58.846 DEBUG group 11 _e-0000dc59-058c-8000-ba62-011e94011e94_7 Begin transport.
+2016-04-07 14:52:58.846 DEBUG group 11 _e-0000dc59-058c-8000-ba62-011e94011e94_7 Retrieving object data.
+2016-04-07 14:52:58.853 DEBUG group 11 _e-0000dc59-058c-8000-ba62-011e94011e94_7 Setting uuids of object references.
+2016-04-07 14:52:58.853 DEBUG group 11 _e-0000dc59-058c-8000-ba62-011e94011e94_7 Processing reference: Role[name=<null>,groupIds=[10]]
+2016-04-07 14:52:58.854 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Begin transport.
+2016-04-07 14:52:58.854 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Retrieving object data.
+2016-04-07 14:52:58.859 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Setting uuids of object references.
+2016-04-07 14:52:58.859 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Processing reference: Role[name=<null>]
+2016-04-07 14:52:58.859 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Processing reference: Group.groupTypeId
+2016-04-07 14:52:58.863 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Processing reference: Group.parentId
+2016-04-07 14:52:58.865 DEBUG group 11 _e-0000dc59-058c-8000-ba62-011e94011e94_7 Begin transport.
+2016-04-07 14:52:58.865 DEBUG group 11 _e-0000dc59-058c-8000-ba62-011e94011e94_7 Loop detected: [group:11, group:10]
+2016-04-07 14:52:58.865 DEBUG group 11 Breaking loop [group:11, group:10]. group:10 will be transported with its reference to 11 nulled out and will require a second pass.
+2016-04-07 14:52:58.865 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Processing reference: Group.homePageId
+2016-04-07 14:52:58.865 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Processing reference: Role[name=<null>]
+2016-04-07 14:52:58.865 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Object transported with these references nulled out: [group:11]
+2016-04-07 14:52:58.865 DEBUG group 11 _e-0000dc59-058c-8000-ba62-011e94011e94_7 Processing reference: Group.groupTypeId
+2016-04-07 14:52:58.867 DEBUG group 11 _e-0000dc59-058c-8000-ba62-011e94011e94_7 Processing reference: Group.parentId
+2016-04-07 14:52:58.868 DEBUG group 11 _e-0000dc59-058c-8000-ba62-011e94011e94_7 Processing reference: Group.homePageId
+2016-04-07 14:52:58.868 DEBUG group 11 _e-0000dc59-058c-8000-ba62-011e94011e94_7 Processing reference: Role[name=<null>,groupIds=[9, 10]]
+2016-04-07 14:52:58.869 DEBUG group 9 _e-0000dbd2-ed23-8000-9aee-01075c01075c_11 Begin transport.
+2016-04-07 14:52:58.869 DEBUG group 9 _e-0000dbd2-ed23-8000-9aee-01075c01075c_11 Retrieving object data.
+2016-04-07 14:52:58.894 DEBUG group 9 _e-0000dbd2-ed23-8000-9aee-01075c01075c_11 Setting uuids of object references.
+2016-04-07 14:52:58.894 DEBUG group 9 _e-0000dbd2-ed23-8000-9aee-01075c01075c_11 Processing reference: Role[name=<null>]
+2016-04-07 14:52:58.894 DEBUG group 9 _e-0000dbd2-ed23-8000-9aee-01075c01075c_11 Processing reference: Group.groupTypeId
+2016-04-07 14:52:58.896 DEBUG group 9 _e-0000dbd2-ed23-8000-9aee-01075c01075c_11 Processing reference: Group.parentId
+2016-04-07 14:52:58.897 DEBUG group 9 _e-0000dbd2-ed23-8000-9aee-01075c01075c_11 Processing reference: Group.homePageId
+2016-04-07 14:52:58.897 DEBUG group 9 _e-0000dbd2-ed23-8000-9aee-01075c01075c_11 Processing reference: Role[name=<null>]
+2016-04-07 14:52:58.897 DEBUG group 9 _e-0000dbd2-ed23-8000-9aee-01075c01075c_11 Exporting binary resources.
+2016-04-07 14:52:58.897 DEBUG group 9 _e-0000dbd2-ed23-8000-9aee-01075c01075c_11 Serializing object to XML.
+2016-04-07 14:52:58.897 DEBUG group 9 _e-0000dbd2-ed23-8000-9aee-01075c01075c_11 Object transported.
+2016-04-07 14:52:58.897 DEBUG group 11 _e-0000dc59-058c-8000-ba62-011e94011e94_7 Exporting binary resources.
+2016-04-07 14:52:58.897 DEBUG group 11 _e-0000dc59-058c-8000-ba62-011e94011e94_7 Serializing object to XML.
+2016-04-07 14:52:58.897 DEBUG group 11 _e-0000dc59-058c-8000-ba62-011e94011e94_7 Object transported.
+2016-04-07 14:52:58.897 DEBUG group 11 _e-0000dc59-058c-8000-ba62-011e94011e94_7 Binding pending incomplete: group:10
+2016-04-07 14:52:58.898 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Begin transport.
+2016-04-07 14:52:58.898 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Retrieving object data.
+2016-04-07 14:52:58.904 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Setting uuids of object references.
+2016-04-07 14:52:58.904 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Processing reference: Role[name=<null>]
+2016-04-07 14:52:58.904 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Processing reference: Group.groupTypeId
+2016-04-07 14:52:58.906 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Processing reference: Group.parentId
+2016-04-07 14:52:58.908 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Processing reference: Group.homePageId
+2016-04-07 14:52:58.908 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Processing reference: Role[name=<null>]
+2016-04-07 14:52:58.908 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Exporting binary resources.
+2016-04-07 14:52:58.908 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Serializing object to XML.
+2016-04-07 14:52:58.908 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Removed object from incomplete list.
+2016-04-07 14:52:58.908 DEBUG group 10 _e-0000dc5b-1c90-8000-ba62-011e94011e94_8 Object transported.
+2016-04-07 14:52:58.911 DEBUG content 2876 30af06cc-90d4-4be8-8682-342bdfc469c8 Begin transport.
+2016-04-07 14:52:58.911 DEBUG content 2876 30af06cc-90d4-4be8-8682-342bdfc469c8 Retrieving object data.
+2016-04-07 14:52:58.921 DEBUG content 2876 30af06cc-90d4-4be8-8682-342bdfc469c8 Setting uuids of object references.
+2016-04-07 14:52:58.922 DEBUG content 2876 30af06cc-90d4-4be8-8682-342bdfc469c8 Processing reference: [Content:id=2834,versionId=-1,name=AUT_TestForm,description=,type=32,subtype=1,uuid=30af06cc-90d4-4be8-8682-342bdfc469c8,parent=2827,parentName=Automated Testing,parentType=2,log=2876,logName=AUT_TestForm,state=255,visibility=35,security=15,creator=dan.austria.a,createdTimestamp=2016-04-07 01:10:18.0,updatedTimestamp=2016-04-07 01:10:20.0,size=0,lockedBy=,changesRequireApproval=false,attributes={dep_rules=[Ljava.lang.Long;@67baa32, system=0, preferredEditor=interface, hidden=0, offlineEnabled=false, ruletype=1, dep_functions=[Ljava.lang.String;@25c6b38d, definition==load(
+  local!textField,
+  local!paragraphField,
+  local!encryptedTextField,
+  local!integerField,
+  local!decimalField,
+  local!dateField,
+  local!datetimeField,
+  local!selectField,
+  local!multipleSelectField,
+  local!radioField,
+  local!checkboxField,
+  local!fileUploadField,
+  local!linkClicked: "Not clicked",
+  local!dateField1,
+  local!dateField2,
+  local!datetimeField1,
+  local!datetimeField2,
+  local!datetimeField3,
+  local!datetimeField4,
+  local!datetimeField5,
+  local!userPicker,
+  local!groupPicker,
+  local!userGroupPicker,
+  local!documentPicker,
+  local!folderPicker,
+  local!documentFolderPicker,
+  local!customPicker,
+  local!gridUserPicker,
+  local!gridGroupPicker,
+  local!gridUserGroupPicker,
+  local!gridDocumentPicker,
+  local!gridFolderPicker,
+  local!gridDocumentFolderPicker,
+  local!gridCustomPicker,
+  local!blankField,
+  local!textField2,
+  local!fileUploadField2,
+  local!radioOptionLost,
+  local!checkboxOptionLost,
+  local!checkboxOptionIndex,
+  local!editableSelection: #"SYSTEM_SYSRULES_gridSelection"(
+    pagingInfo: #"SYSTEM_SYSRULES_pagingInfo"(startIndex:1,batchSize:-1),
+    selected: {}
+  ),
+  local!gridTextField: cast(103, {""}),
+  local!gridParagraphField: cast(103, {}),
+  local!gridEncryptedTextField: cast(223, {}), 
+  local!gridIntegerField: cast(101, {}),
+  local!gridDecimalField: cast(102, {}),
+  local!gridDateField: cast(107, {}),
+  local!gridDatetimeField1,
+  local!gridDatetimeField2,
+  local!gridSelectField1,
+  local!gridSelectField2,
+  local!gridRadioField1,
+  local!gridRadioField2,
+  local!gridCheckboxField1,
+  local!gridCheckboxField2,
+  local!gridFileUploadField1,
+  local!gridFileUploadField2,
+  local!gridData: {
+    {id: 1, value: "Value 1", description: "Description 1"},
+    {id: 2, value: "Value 2", description: "Description 2"},
+    {id: 3, value: "Value 3", description: "Description 3"},
+    {id: 4, value: "Value 4", description: "Description 4"},
+    {id: 5, value: "Value 5", description: "Description 5"},
+    {id: 6, value: "Value 6", description: "Description 6"},
+    {id: 7, value: "Value 7", description: "Description 7"},
+    {id: 8, value: "Value 8", description: "Description 8"},
+    {id: 1, value: "Value 9", description: "Description 9"},
+    {id: 2, value: "Value 10", description: "Description 10"},
+    {id: 3, value: "Value 11", description: "Description 11"},
+    {id: 4, value: "Value 12", description: "Description 12"},
+    {id: 5, value: "Value 13", description: "Description 13"},
+    {id: 6, value: "Value 14", description: "Description 14"},
+    {id: 7, value: "Value 15", description: "Description 15"},
+    {id: 8, value: "Value 16", description: "Description 16"},
+    {id: 1, value: "Value 17", description: "Description 17"},
+    {id: 2, value: "Value 18", description: "Description 18"},
+    {id: 3, value: "Value 19", description: "Description 19"},
+    {id: 4, value: "Value 20", description: "Description 20"}
+  },
+  local!gridSelection: #"SYSTEM_SYSRULES_gridSelection"(
+    pagingInfo: #"SYSTEM_SYSRULES_pagingInfo"(startIndex: 1, batchSize: 5)
+  ),
+  local!validationField,
+  local!requiredField,
+  #"SYSTEM_SYSRULES_formLayout"(
+    label: "Form",
+    instructions: "Instructions",
+    firstColumnContents: {
+      #"SYSTEM_SYSRULES_sectionLayout"(
+        label: "Section 1",
+        isCollapsible: true,
+        firstColumnContents: {
+          #"SYSTEM_SYSRULES_textField"(
+            label: "TextField",
+            labelPosition: "ABOVE",
+            value: local!textField,
+            saveInto: local!textField,
+            refreshAfter: "UNFOCUS",
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_textField"(
+            label: "ROTextField",
+            labelPosition: "ABOVE",
+            value: local!textField,
+            saveInto: local!textField,
+            refreshAfter: "UNFOCUS",
+            validations: {},
+            readOnly: true
+          ),
+          #"SYSTEM_SYSRULES_paragraphField"(
+            label: "ParagraphField",
+            labelPosition: "ABOVE",
+            value: local!paragraphField,
+            saveInto: local!paragraphField,
+            refreshAfter: "UNFOCUS",
+            height: "MEDIUM",
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_paragraphField"(
+            label: "ROParagraphField",
+            labelPosition: "ABOVE",
+            value: local!paragraphField,
+            saveInto: local!paragraphField,
+            refreshAfter: "UNFOCUS",
+            height: "MEDIUM",
+            validations: {},
+            readOnly: true
+          ),
+          #"SYSTEM_SYSRULES_encryptedTextField"(
+            label: "EncryptedTextField",
+            labelPosition: "ABOVE",
+            value: local!encryptedTextField,
+            saveInto: local!encryptedTextField,
+            refreshAfter: "UNFOCUS"
+          ),
+          #"SYSTEM_SYSRULES_encryptedTextField"(
+            label: "ROEncryptedTextField",
+            labelPosition: "ABOVE",
+            value: local!encryptedTextField,
+            saveInto: local!encryptedTextField,
+            refreshAfter: "UNFOCUS",
+            readOnly: true
+          ),
+          #"SYSTEM_SYSRULES_integerField"(
+            label: "IntegerField",
+            labelPosition: "ABOVE",
+            value: local!integerField,
+            saveInto: local!integerField,
+            refreshAfter: "UNFOCUS",
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_integerField"(
+            label: "ROIntegerField",
+            labelPosition: "ABOVE",
+            value: local!integerField,
+            saveInto: local!integerField,
+            refreshAfter: "UNFOCUS",
+            validations: {},
+            readOnly: true
+          ),
+          #"SYSTEM_SYSRULES_floatingPointField"(
+            label: "DecimalField",
+            labelPosition: "ABOVE",
+            value: local!decimalField,
+            saveInto: local!decimalField,
+            refreshAfter: "UNFOCUS",
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_floatingPointField"(
+            label: "RODecimalField",
+            labelPosition: "ABOVE",
+            value: local!decimalField,
+            saveInto: local!decimalField,
+            refreshAfter: "UNFOCUS",
+            validations: {},
+            readOnly: true
+          ),
+          #"SYSTEM_SYSRULES_dateField"(
+            label: "DateField",
+            labelPosition: "ABOVE",
+            value: local!dateField,
+            saveInto: local!dateField,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_dateField"(
+            label: "RODateField",
+            labelPosition: "ABOVE",
+            value: local!dateField,
+            saveInto: local!dateField,
+            validations: {},
+            readOnly: true
+          )
+        },
+        secondColumnContents: {
+          #"SYSTEM_SYSRULES_dateTimeField"(
+            label: "DatetimeField",
+            labelPosition: "ABOVE",
+            value: local!datetimeField,
+            saveInto: local!datetimeField,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_dateTimeField"(
+            label: "RODatetimeField",
+            labelPosition: "ABOVE",
+            value: local!datetimeField,
+            saveInto: local!datetimeField,
+            validations: {},
+            readOnly: true
+          ),
+          #"SYSTEM_SYSRULES_dropdownField"(
+            label: "SelectField",
+            labelPosition: "",
+            placeholderLabel: "--- Select a Value ---",
+            choiceLabels: {"Option, 1", "Option 2"},
+            choiceValues: {1, 2},
+            value: local!selectField,
+            saveInto: local!selectField,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_multipleDropdownField"(
+            label: "MultipleSelectField",
+            labelPosition: "ABOVE",
+            choiceLabels: {"Option 1", "Option 2"},
+            choiceValues: {1, 2},
+            value: local!multipleSelectField,
+            saveInto: local!multipleSelectField,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_radioButtonField"(
+            label: "RadioField",
+            labelPosition: "ABOVE",
+            choiceLabels: {"Option 1", "Option 2"},
+            choiceValues: {1, 2},
+            value: local!radioField,
+            saveInto: local!radioField,
+            choiceLayout: "STACKED",
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_checkboxField"(
+            label: "CheckboxField",
+            labelPosition: "ABOVE",
+            choiceLabels: {"Option 1", "Option 2"},
+            choiceValues: {1, 2},
+            value: local!checkboxField,
+            saveInto: local!checkboxField,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_fileUploadField"(
+            label: "FileUploadField",
+            labelPosition: "ABOVE",
+            target: #"_a-0001dbef-826b-8000-9ba2-011c48011c48_56540",
+            value: local!fileUploadField,
+            saveInto: local!fileUploadField,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_linkField"(
+            links: #"SYSTEM_SYSRULES_dynamicLink"(
+              label: "Click link",
+              value: "Clicked",
+              saveInto: local!linkClicked
+            )
+          ),
+          #"SYSTEM_SYSRULES_linkField"(
+            links: #"SYSTEM_SYSRULES_dynamicLink"(
+              label: "Click link",
+              value: "Clicked again",
+              saveInto: local!linkClicked
+            )
+          ),
+          #"SYSTEM_SYSRULES_textField"(
+            label: "Link Clicked",
+            value: local!linkClicked,
+            readOnly: true
+          )
+        }
+      ),
+      #"SYSTEM_SYSRULES_sectionLayout"(
+        label: "Section 2",
+        firstColumnContents: {
+          #"SYSTEM_SYSRULES_dateField"(
+            label: "DateField (date)",
+            labelPosition: "ABOVE",
+            value: local!dateField1,
+            saveInto: local!dateField1,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_dateField"(
+            label: "DateField (+5 days)",
+            labelPosition: "ABOVE",
+            value: local!dateField2,
+            saveInto: local!dateField2,
+            validations: {}
+          )
+        },
+        secondColumnContents: {
+          #"SYSTEM_SYSRULES_dateTimeField"(
+            label: "DatetimeField (date)",
+            labelPosition: "ABOVE",
+            value: local!datetimeField1,
+            saveInto: local!datetimeField1,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_dateTimeField"(
+            label: "DatetimeField (datetime)",
+            labelPosition: "ABOVE",
+            value: local!datetimeField2,
+            saveInto: local!datetimeField2,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_dateTimeField"(
+            label: "DatetimeField (+5 minutes)",
+            labelPosition: "ABOVE",
+            value: local!datetimeField3,
+            saveInto: local!datetimeField3,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_dateTimeField"(
+            label: "DatetimeField (+5 hours)",
+            labelPosition: "ABOVE",
+            value: local!datetimeField4,
+            saveInto: local!datetimeField4,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_dateTimeField"(
+            label: "DatetimeField (+5 days)",
+            labelPosition: "ABOVE",
+            value: local!datetimeField5,
+            saveInto: local!datetimeField5,
+            validations: {}
+          )
+        }
+      ),
+      #"SYSTEM_SYSRULES_sectionLayout"(
+        label: "Section 3",
+        firstColumnContents: {
+          #"SYSTEM_SYSRULES_textField"(
+            label: "",
+            labelPosition: "ABOVE",
+            value: local!blankField,
+            saveInto: local!blankField,
+            refreshAfter: "UNFOCUS",
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_radioButtonField"(
+            label: "",
+            labelPosition: "ABOVE",
+            choiceLabels: {"Click Me!", "Don't Click Me!"},
+            choiceValues: {1, 2},
+            value: local!radioOptionLost,
+            saveInto: local!radioOptionLost,
+            choiceLayout: "STACKED",
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_checkboxField"(
+            label: "",
+            labelPosition: "ABOVE",
+            choiceLabels: {"Click Me Too!", "Don't Click Me Either!"},
+            choiceValues: {1, 2},
+            value: local!checkboxOptionLost,
+            saveInto: local!checkboxOptionLost,
+            validations: {}
+          )
+        },
+        secondColumnContents: {
+          #"SYSTEM_SYSRULES_textField"(
+            label: "TextField",
+            labelPosition: "ABOVE",
+            value: local!textField2,
+            saveInto: local!textField2,
+            refreshAfter: "UNFOCUS",
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_fileUploadField"(
+            label: "FileUploadFieldIndex",
+            labelPosition: "ABOVE",
+            target: #"_a-0001dbef-826b-8000-9ba2-011c48011c48_56540",
+            value: local!fileUploadField2,
+            saveInto: local!fileUploadField2,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_checkboxField"(
+            label: "CheckboxFieldIndex",
+            labelPosition: "ABOVE",
+            choiceLabels: {"Click Me With Index"},
+            choiceValues: {1},
+            value: local!checkboxOptionIndex,
+            saveInto: local!checkboxOptionIndex,
+            validations: {}
+          )
+        }
+      ),
+      #"SYSTEM_SYSRULES_sectionLayout"(
+        label: "Section 4",
+        firstColumnContents: {
+          #"SYSTEM_SYSRULES_pickerFieldUsers"(
+            label: "UserPicker",
+            labelPosition: "ABOVE",
+            value: local!userPicker,
+            saveInto: local!userPicker,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_pickerFieldGroups"(
+            label: "GroupPicker",
+            labelPosition: "ABOVE",
+            value: local!groupPicker,
+            saveInto: local!groupPicker,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_pickerFieldUsersAndGroups"(
+            label: "UserGroupPicker",
+            labelPosition: "ABOVE",
+            value: local!userGroupPicker,
+            saveInto: local!userGroupPicker,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_pickerFieldDocuments"(
+            label: "DocumentPicker",
+            labelPosition: "ABOVE",
+            value: local!documentPicker,
+            saveInto: local!documentPicker,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_pickerFieldFolders"(
+            label: "FolderPicker",
+            labelPosition: "ABOVE",
+            value: local!folderPicker,
+            saveInto: local!folderPicker,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_pickerFieldDocumentsAndFolders"(
+            label: "DocumentFolderPicker",
+            labelPosition: "ABOVE",
+            value: local!documentFolderPicker,
+            saveInto: local!documentFolderPicker,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_pickerFieldCustom"(
+            label: "CustomPicker",
+            labelPosition: "ABOVE",
+            suggestFunction: #"_a-0000dbe2-3890-8000-9ba2-011c48011c48_50056",
+            selectedLabels: local!customPicker,
+            value: local!customPicker,
+            saveInto: local!customPicker,
+            validations: {}
+          )
+        },
+        secondColumnContents: {
+          #"SYSTEM_SYSRULES_pickerFieldUsers"(
+            label: "ROUserPicker",
+            labelPosition: "ABOVE",
+            readOnly: true,
+            value: local!userPicker,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_pickerFieldGroups"(
+            label: "ROGroupPicker",
+            labelPosition: "ABOVE",
+            value: local!groupPicker,
+            readOnly: true,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_pickerFieldUsersAndGroups"(
+            label: "ROUserGroupPicker",
+            labelPosition: "ABOVE",
+            value: local!userGroupPicker,
+            readOnly: true,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_pickerFieldDocuments"(
+            label: "RODocumentPicker",
+            labelPosition: "ABOVE",
+            value: local!documentPicker,
+            readOnly: true,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_pickerFieldFolders"(
+            label: "ROFolderPicker",
+            labelPosition: "ABOVE",
+            value: local!folderPicker,
+            readOnly: true,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_pickerFieldDocumentsAndFolders"(
+            label: "RODocumentFolderPicker",
+            labelPosition: "ABOVE",
+            value: local!documentFolderPicker,
+            readOnly: true,
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_pickerFieldCustom"(
+            label: "ROCustomPicker",
+            labelPosition: "ABOVE",
+            suggestFunction: #"_a-0000dbe2-3890-8000-9ba2-011c48011c48_50056",
+            selectedLabels: local!customPicker,
+            value: local!customPicker,
+            readOnly: true,
+            validations: {}
+          )
+        }
+      ),
+      #"SYSTEM_SYSRULES_sectionLayout"(
+        label: "Section 5",
+        firstColumnContents: {
+          #"SYSTEM_SYSRULES_gridLayout"(
+            label: "EditableGrid",
+            headerCells: {
+              #"SYSTEM_SYSRULES_gridLayoutHeaderCell"(label: "TextField"),
+              #"SYSTEM_SYSRULES_gridLayoutHeaderCell"(
+                label: "ParagraphField"
+              ),
+              #"SYSTEM_SYSRULES_gridLayoutHeaderCell"(
+                label: "EncryptedTextField"
+              ),
+              #"SYSTEM_SYSRULES_gridLayoutHeaderCell"(
+                label: "IntegerField"
+              ),
+              #"SYSTEM_SYSRULES_gridLayoutHeaderCell"(
+                label: "DecimalField"
+              ),
+              #"SYSTEM_SYSRULES_gridLayoutHeaderCell"(
+                label: "DateField"
+              )
+            },
+            columnConfigs: {},
+            rows: {
+              #"SYSTEM_SYSRULES_applyComponents"(
+                #"_a-0000dc64-cf59-8000-9ba2-011c48011c48_77004"(
+                  index: _
+                ),
+                enumerate(count(local!gridTextField)) + 1
+              ),
+              #"SYSTEM_SYSRULES_gridRowLayout"(
+                contents: {
+                  #"SYSTEM_SYSRULES_textField"(
+                    label: "Label",
+                    labelPosition: "ABOVE",
+                    value: index(local!gridTextField, 1, null),
+                    saveInto: local!gridTextField,
+                    refreshAfter: "UNFOCUS",
+                    validations: {},
+                    readOnly: true
+                  ),
+                  #"SYSTEM_SYSRULES_paragraphField"(
+                    label: "Label",
+                    labelPosition: "ABOVE",
+                    value: index(local!gridParagraphField, 1, null),
+                    saveInto: local!gridParagraphField,
+                    refreshAfter: "UNFOCUS",
+                    height: "MEDIUM",
+                    validations: {},
+                    readOnly: true
+                  ),
+                  #"SYSTEM_SYSRULES_encryptedTextField"(
+                    label: "Label",
+                    labelPosition: "ABOVE",
+                    value: index(local!gridEncryptedTextField, 1, null),
+                    saveInto: local!gridEncryptedTextField,
+                    refreshAfter: "UNFOCUS",
+                    readOnly: true
+                  ),
+                  #"SYSTEM_SYSRULES_integerField"(
+                    label: "Label",
+                    labelPosition: "ABOVE",
+                    value: index(local!gridIntegerField, 1, null),
+                    saveInto: local!gridIntegerField,
+                    refreshAfter: "UNFOCUS",
+                    validations: {},
+                    readOnly: true
+                  ),
+                  #"SYSTEM_SYSRULES_floatingPointField"(
+                    label: "Label",
+                    labelPosition: "ABOVE",
+                    value: index(local!gridDecimalField, 1, null),
+                    saveInto: local!gridDecimalField,
+                    refreshAfter: "UNFOCUS",
+                    validations: {},
+                    readOnly: true
+                  ),
+                  #"SYSTEM_SYSRULES_dateField"(
+                    label: "Label",
+                    labelPosition: "ABOVE",
+                    value: index(local!gridDateField, 1, null),
+                    saveInto: local!gridDateField,
+                    validations: {},
+                    readOnly: true
+                  )
+                }
+              )
+            },
+            selectable: true,
+            selectionvalue: local!editableSelection.selected,
+            selectionSaveInto: local!editableSelection.selected,
+            addrowlink: #"SYSTEM_SYSRULES_dynamicLink"(
+              label: "Add Data to Paging Grid",
+              value: "",
+              saveInto: a!save(
+                target: local!gridTextField,
+                value: append(local!gridTextField, cast(3, null))
+              )
+            ),
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_textField"(value: typeof({local!encryptedTextField, local!encryptedTextField})),
+          #"SYSTEM_SYSRULES_gridLayout"(
+            label: "EditableGrid",
+            headerCells: {
+              #"SYSTEM_SYSRULES_gridLayoutHeaderCell"(
+                label: "DatetimeField"
+              ),
+              #"SYSTEM_SYSRULES_gridLayoutHeaderCell"(
+                label: "SelectField"
+              ),
+              #"SYSTEM_SYSRULES_gridLayoutHeaderCell"(
+                label: "RadioField"
+              ),
+              #"SYSTEM_SYSRULES_gridLayoutHeaderCell"(
+                label: "CheckboxField"
+              ),
+              #"SYSTEM_SYSRULES_gridLayoutHeaderCell"(
+                label: "FileUploadField"
+              )
+            },
+            columnConfigs: {},
+            rows: {
+              #"SYSTEM_SYSRULES_gridRowLayout"(
+                contents: {
+                  #"SYSTEM_SYSRULES_dateTimeField"(
+                    label: "DatetimeField",
+                    labelPosition: "ABOVE",
+                    value: local!gridDatetimeField1,
+                    saveInto: local!gridDatetimeField1,
+                    validations: {}
+                  ),
+                  #"SYSTEM_SYSRULES_dropdownField"(
+                    label: "SelectField",
+                    labelPosition: "ABOVE",
+                    placeholderLabel: "--- Select a Value ---",
+                    choiceLabels: {"Option 1", "Option 2"},
+                    choiceValues: {1, 2},
+                    value: local!gridSelectField1,
+                    saveInto: local!gridSelectField1,
+                    validations: {}
+                  ),
+                  #"SYSTEM_SYSRULES_radioButtonField"(
+                    label: "RadioField",
+                    labelPosition: "ABOVE",
+                    choiceLabels: {"Option 1", "Option 2"},
+                    choiceValues: {1, 2},
+                    value: local!gridRadioField1,
+                    saveInto: local!gridRadioField1,
+                    choiceLayout: "STACKED",
+                    validations: {}
+                  ),
+                  #"SYSTEM_SYSRULES_checkboxField"(
+                    label: "CheckboxField",
+                    labelPosition: "ABOVE",
+                    choiceLabels: {"Option 1", "Option 2"},
+                    choiceValues: {1, 2},
+                    value: local!gridCheckboxField1,
+                    saveInto: local!gridCheckboxField1,
+                    validations: {}
+                  ),
+                  #"SYSTEM_SYSRULES_fileUploadField"(
+                    label: "FileUploadField",
+                    labelPosition: "ABOVE",
+                    target: #"_a-0001dbef-826b-8000-9ba2-011c48011c48_56540",
+                    value: local!gridFileUploadField1,
+                    saveInto: local!gridFileUploadField1,
+                    validations: {}
+                  )
+                }
+              ),
+              #"SYSTEM_SYSRULES_gridRowLayout"(
+                contents: {
+                  #"SYSTEM_SYSRULES_dateTimeField"(
+                    label: "DatetimeField",
+                    labelPosition: "ABOVE",
+                    value: local!gridDatetimeField2,
+                    saveInto: local!gridDatetimeField2,
+                    validations: {}
+                  ),
+                  #"SYSTEM_SYSRULES_dropdownField"(
+                    label: "SelectField",
+                    labelPosition: "ABOVE",
+                    placeholderLabel: "--- Select a Value ---",
+                    choiceLabels: {"Option 1", "Option 2"},
+                    choiceValues: {1, 2},
+                    value: local!gridSelectField2,
+                    saveInto: local!gridSelectField2,
+                    validations: {}
+                  ),
+                  #"SYSTEM_SYSRULES_radioButtonField"(
+                    label: "RadioField",
+                    labelPosition: "ABOVE",
+                    choiceLabels: {"Option 1", "Option 2"},
+                    choiceValues: {1, 2},
+                    value: local!gridRadioField2,
+                    saveInto: local!gridRadioField2,
+                    choiceLayout: "STACKED",
+                    validations: {}
+                  ),
+                  #"SYSTEM_SYSRULES_checkboxField"(
+                    label: "CheckboxField",
+                    labelPosition: "ABOVE",
+                    choiceLabels: {"Option 1", "Option 2"},
+                    choiceValues: {1, 2},
+                    value: local!gridCheckboxField2,
+                    saveInto: local!gridCheckboxField2,
+                    validations: {}
+                  ),
+                  #"SYSTEM_SYSRULES_fileUploadField"(
+                    label: "FileUploadField",
+                    labelPosition: "ABOVE",
+                    target: #"_a-0001dbef-826b-8000-9ba2-011c48011c48_56540",
+                    value: local!gridFileUploadField2,
+                    saveInto: local!gridFileUploadField2,
+                    validations: {}
+                  )
+                }
+              )
+            },
+            selectionSaveInto: {},
+            validations: {}
+          ),
+          #"SYSTEM_SYSRULES_gridLayout"(
+            label: "EditableGrid",
+            headerCells: {
+              #"SYSTEM_SYSRULES_gridLayoutHeaderCell"(
+                label: "PickerField1"
+              ),
+              #"SYSTEM_SYSRULES_gridLayoutHeaderCell"(
+                label: "PickerField2"
+              ),
+              #"SYSTEM_SYSRULES_gridLayoutHeaderCell"(
+                label: "PickerField3"
+              ),
+              #"SYSTEM_SYSRULES_gridLayoutHeaderCell"(
+                label: "PickerField4"
+              )
+            },
+            columnConfigs: {},
+            rows: {
+              #"SYSTEM_SYSRULES_gridRowLayout"(
+                contents: {
+                  #"SYSTEM_SYSRULES_pickerFieldUsers"(
+                    label: "UserPicker",
+                    labelPosition: "ABOVE",
+                    value: local!gridUserPicker,
+                    saveInto: local!gridUserPicker,
+                    validations: {}
+                  ),
+                  #"SYSTEM_SYSRULES_pickerFieldGroups"(
+                    label: "GroupPicker",
+                    labelPosition: "ABOVE",
+                    value: local!gridGroupPicker,
+                    saveInto: local!gridGroupPicker,
+                    validations: {}
+                  ),
+                  #"SYSTEM_SYSRULES_pickerFieldUsersAndGroups"(
+                    label: "UserGroupPicker",
+                    labelPosition: "ABOVE",
+                    value: local!gridUserGroupPicker,
+                    saveInto: local!gridUserGroupPicker,
+                    validations: {}
+                  ),
+                  #"SYSTEM_SYSRULES_pickerFieldDocuments"(
+                    label: "DocumentPicker",
+                    labelPosition: "ABOVE",
+                    value: local!gridDocumentPicker,
+                    saveInto: local!gridDocumentPicker,
+                    validations: {}
+                  )
+                }
+              ),
+              #"SYSTEM_SYSRULES_gridRowLayout"(
+                contents: {
+                  #"SYSTEM_SYSRULES_pickerFieldFolders"(
+                    label: "FolderPicker",
+                    labelPosition: "ABOVE",
+                    value: local!gridFolderPicker,
+                    saveInto: local!gridFolderPicker,
+                    validations: {}
+                  ),
+                  #"SYSTEM_SYSRULES_pickerFieldDocumentsAndFolders"(
+                    label: "DocumentFolderPicker",
+                    labelPosition: "ABOVE",
+                    value: local!gridDocumentFolderPicker,
+                    saveInto: local!gridDocumentFolderPicker,
+                    validations: {}
+                  ),
+                  #"SYSTEM_SYSRULES_pickerFieldCustom"(
+                    label: "CustomPicker",
+                    labelPosition: "ABOVE",
+                    suggestFunction: #"_a-0000dbe2-3890-8000-9ba2-011c48011c48_50056",
+                    selectedLabels: local!gridCustomPicker,
+                    value: local!gridCustomPicker,
+                    saveInto: local!gridCustomPicker,
+                    validations: {}
+                  ),
+                  #"SYSTEM_SYSRULES_textField"(readOnly: true)
+                }
+              )
+            },
+            selectionSaveInto: {},
+            validations: {}
+          ),
+          with(
+            local!pagedGridData: todatasubset(
+              local!gridData,
+              local!gridSelection.pagingInfo
+            ),
+            #"SYSTEM_SYSRULES_gridField"(
+              label: "PagingGrid",
+              labelPosition: "ABOVE",
+              totalCount: length(local!gridData),
+              columns: {
+                #"SYSTEM_SYSRULES_gridTextColumn"(
+                  label: "Column Label 1",
+                  data: local!pagedGridData.data.value,
+                  field: "value"
+                ),
+                #"SYSTEM_SYSRULES_gridTextColumn"(
+                  label: "Column Label 2",
+                  data: local!pagedGridData.data.description,
+                  field: "description"
+                )
+              },
+              identifiers: local!pagedGridData.data.id,
+              value: local!gridSelection,
+              saveInto: local!gridSelection,
+              selection: true,
+              validations: {}
+            )
+          )
+        },
+        secondColumnContents: {}
+      ),
+      #"SYSTEM_SYSRULES_sectionLayout"(
+        label: "Section 6",
+        firstColumnContents: {
+          #"SYSTEM_SYSRULES_textField"(
+            label: "RequiredField",
+            value: local!requiredField,
+            saveInto: local!requiredField,
+            required: true
+          ),
+          #"SYSTEM_SYSRULES_integerField"(
+            label: "ValidationField",
+            value: local!validationField,
+            instruction: "Enter an even positive number",
+            saveInto: local!validationField,
+            validations: {
+              if(
+                and(
+                  not(isnull(local!validationField)),
+                  local!validationField < 0
+                ),
+                "Value must be greater than 0",
+                null
+              ),
+              if(
+                and(
+                  not(isnull(local!validationField)),
+                  mod(local!validationField, 2) = 0
+                ),
+                null,
+                "Value must be even"
+              )
+            }
+          )
+        },
+        validations: {
+          #"SYSTEM_SYSRULES_validationMessage"(
+            message: if(
+              isnull(local!requiredField),
+              "RequiredField is required",
+              null
+            ),
+            validateAfter: "SUBMIT"
+          ),
+          #"SYSTEM_SYSRULES_validationMessage"(
+            message: if(
+              local!validationField = "valid",
+              null,
+              "ValidationField is invalid"
+            ),
+            validateAfter: "SUBMIT"
+          )
+        }
+      )
+    },
+    secondColumnContents: {},
+    buttons: #"SYSTEM_SYSRULES_ButtonLayout"(
+      primaryButtons: {
+        #"SYSTEM_SYSRULES_ButtonWidget"(
+          label: "Submit",
+          style: "PRIMARY",
+          submit: true,
+          saveInto: {}
+        )
+      },
+      secondaryButtons: {
+        #"SYSTEM_SYSRULES_ButtonWidgetSubmit"(
+          label: "Cancel",
+          style: "NORMAL",
+          value: true,
+          saveInto: ri!cancel,
+          skipValidation: true
+        )
+      }
+    ),
+    validations: {}
+  )
+), dep_types=[Ljava.lang.String;@53b311ce, metadataExpr=null, parameters=[Lcom.appiancorp.suiteapi.process.TypedVariable;@6c11caab, dep_variables=[[Ljava.lang.String;@37e0c721},partition=3,partitionName=/usr/local/appian/ae/_admin/accdocs3]
+2016-04-07 14:52:58.993 DEBUG content 2876 30af06cc-90d4-4be8-8682-342bdfc469c8 Processing reference: FreeformRule.forum
+2016-04-07 14:52:58.994 DEBUG content 2876 30af06cc-90d4-4be8-8682-342bdfc469c8 Processing reference: TypedVariable[name=cancel,it=26,v=<null>]
+2016-04-07 14:52:58.994 DEBUG content 2876 30af06cc-90d4-4be8-8682-342bdfc469c8 Processing reference: FreeformRule.parent
+2016-04-07 14:52:58.997 DEBUG content 2827 _a-0000dbe2-3890-8000-9ba2-011c48011c48_49587 Begin transport.
+2016-04-07 14:52:58.997 DEBUG content 2827 _a-0000dbe2-3890-8000-9ba2-011c48011c48_49587 Retrieving object data.
+2016-04-07 14:52:59.004 DEBUG content 2827 _a-0000dbe2-3890-8000-9ba2-011c48011c48_49587 Setting uuids of object references.
+2016-04-07 14:52:59.004 DEBUG content 2827 _a-0000dbe2-3890-8000-9ba2-011c48011c48_49587 Processing reference: RulesFolder.forum
+2016-04-07 14:52:59.004 DEBUG content 2827 _a-0000dbe2-3890-8000-9ba2-011c48011c48_49587 Processing reference: RulesFolder.parent
+2016-04-07 14:52:59.006 DEBUG content 2827 _a-0000dbe2-3890-8000-9ba2-011c48011c48_49587 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@6c6a8522[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-04-07 14:52:59.006 DEBUG content 2827 _a-0000dbe2-3890-8000-9ba2-011c48011c48_49587 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2016-04-07 14:52:59.006 DEBUG content 2827 _a-0000dbe2-3890-8000-9ba2-011c48011c48_49587 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2016-04-07 14:52:59.007 DEBUG content 2827 _a-0000dbe2-3890-8000-9ba2-011c48011c48_49587 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2016-04-07 14:52:59.007 DEBUG content 2827 _a-0000dbe2-3890-8000-9ba2-011c48011c48_49587 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.007 DEBUG content 2827 _a-0000dbe2-3890-8000-9ba2-011c48011c48_49587 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.007 DEBUG content 2827 _a-0000dbe2-3890-8000-9ba2-011c48011c48_49587 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.007 DEBUG content 2827 _a-0000dbe2-3890-8000-9ba2-011c48011c48_49587 Exporting binary resources.
+2016-04-07 14:52:59.007 DEBUG content 2827 _a-0000dbe2-3890-8000-9ba2-011c48011c48_49587 Serializing object to XML.
+2016-04-07 14:52:59.007 DEBUG content 2827 _a-0000dbe2-3890-8000-9ba2-011c48011c48_49587 Object transported.
+2016-04-07 14:52:59.007 DEBUG content 2876 30af06cc-90d4-4be8-8682-342bdfc469c8 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@51b99b25[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-04-07 14:52:59.007 DEBUG content 2876 30af06cc-90d4-4be8-8682-342bdfc469c8 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2016-04-07 14:52:59.007 DEBUG content 2876 30af06cc-90d4-4be8-8682-342bdfc469c8 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2016-04-07 14:52:59.007 DEBUG content 2876 30af06cc-90d4-4be8-8682-342bdfc469c8 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2016-04-07 14:52:59.007 DEBUG content 2876 30af06cc-90d4-4be8-8682-342bdfc469c8 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.007 DEBUG content 2876 30af06cc-90d4-4be8-8682-342bdfc469c8 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.007 DEBUG content 2876 30af06cc-90d4-4be8-8682-342bdfc469c8 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.007 DEBUG content 2876 30af06cc-90d4-4be8-8682-342bdfc469c8 Exporting binary resources.
+2016-04-07 14:52:59.007 DEBUG content 2876 30af06cc-90d4-4be8-8682-342bdfc469c8 Serializing object to XML.
+2016-04-07 14:52:59.009 DEBUG content 2876 30af06cc-90d4-4be8-8682-342bdfc469c8 Object transported.
+2016-04-07 14:52:59.009 DEBUG content 2873 _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004 Begin transport.
+2016-04-07 14:52:59.009 DEBUG content 2873 _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004 Retrieving object data.
+2016-04-07 14:52:59.016 DEBUG content 2873 _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004 Setting uuids of object references.
+2016-04-07 14:52:59.016 DEBUG content 2873 _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004 Processing reference: [Content:id=2828,versionId=-1,name=AUT_TestFormRow,description=,type=32,subtype=1,uuid=_a-0000dc64-cf59-8000-9ba2-011c48011c48_77004,parent=2827,parentName=Automated Testing,parentType=2,log=2873,logName=AUT_TestFormRow,state=255,visibility=35,security=15,creator=dan.austria.a,createdTimestamp=2016-04-07 01:10:17.0,updatedTimestamp=2016-04-07 01:10:17.0,size=0,lockedBy=,changesRequireApproval=false,attributes={dep_rules=[Ljava.lang.Long;@11ca42ea, system=0, preferredEditor=interface, hidden=0, offlineEnabled=false, ruletype=1, dep_functions=[Ljava.lang.String;@24b0685c, definition=#"SYSTEM_SYSRULES_gridRowLayout"(
+  contents: {
+    #"SYSTEM_SYSRULES_textField"(
+      label: "Label",
+      labelPosition: "ABOVE",
+      value: index(local!gridTextField, ri!index, null),
+      saveInto: local!gridTextField[ri!index],
+      refreshAfter: "UNFOCUS",
+      validations: {}
+    ),
+    #"SYSTEM_SYSRULES_paragraphField"(
+      label: "Label",
+      labelPosition: "ABOVE",
+      value: index(local!gridParagraphField, ri!index, null),
+      saveInto: local!gridParagraphField[ri!index],
+      refreshAfter: "UNFOCUS",
+      height: "MEDIUM",
+      validations: {}
+    ),
+    #"SYSTEM_SYSRULES_encryptedTextField"(
+      label: "Label",
+      labelPosition: "ABOVE",
+      value: index(local!gridEncryptedTextField, ri!index, null),
+      saveInto: local!gridEncryptedTextField[ri!index],
+      refreshAfter: "UNFOCUS"
+    ),
+    #"SYSTEM_SYSRULES_integerField"(
+      label: "Label",
+      labelPosition: "ABOVE",
+      value: index(local!gridIntegerField, ri!index, null),
+      saveInto: local!gridIntegerField[ri!index],
+      refreshAfter: "UNFOCUS",
+      validations: {}
+    ),
+    #"SYSTEM_SYSRULES_floatingPointField"(
+      label: "Label",
+      labelPosition: "ABOVE",
+      value: index(local!gridDecimalField, ri!index, null),
+      saveInto: local!gridDecimalField[ri!index],
+      refreshAfter: "UNFOCUS",
+      validations: {}
+    ),
+    #"SYSTEM_SYSRULES_dateField"(
+      label: "Label",
+      labelPosition: "ABOVE",
+      value: index(local!gridDateField, ri!index, null),
+      saveInto: local!gridDateField[ri!index],
+      validations: {}
+    )
+  }
+), dep_types=[Ljava.lang.String;@114bf2f2, metadataExpr=null, parameters=[Lcom.appiancorp.suiteapi.process.TypedVariable;@295c48bd, dep_variables=[[Ljava.lang.String;@6ac2926e},partition=3,partitionName=/usr/local/appian/ae/_admin/accdocs3]
+2016-04-07 14:52:59.017 DEBUG content 2873 _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004 Processing reference: FreeformRule.forum
+2016-04-07 14:52:59.017 DEBUG content 2873 _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004 Processing reference: TypedVariable[name=index,it=1,v=<null>]
+2016-04-07 14:52:59.017 DEBUG content 2873 _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004 Processing reference: FreeformRule.parent
+2016-04-07 14:52:59.02 DEBUG content 2873 _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@7eb88d7d[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-04-07 14:52:59.02 DEBUG content 2873 _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2016-04-07 14:52:59.02 DEBUG content 2873 _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2016-04-07 14:52:59.02 DEBUG content 2873 _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2016-04-07 14:52:59.02 DEBUG content 2873 _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.02 DEBUG content 2873 _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.02 DEBUG content 2873 _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.02 DEBUG content 2873 _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004 Exporting binary resources.
+2016-04-07 14:52:59.02 DEBUG content 2873 _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004 Serializing object to XML.
+2016-04-07 14:52:59.021 DEBUG content 2873 _a-0000dc64-cf59-8000-9ba2-011c48011c48_77004 Object transported.
+2016-04-07 14:52:59.021 DEBUG content 2874 _a-0001dbef-826b-8000-9ba2-011c48011c48_56540 Begin transport.
+2016-04-07 14:52:59.021 DEBUG content 2874 _a-0001dbef-826b-8000-9ba2-011c48011c48_56540 Retrieving object data.
+2016-04-07 14:52:59.027 DEBUG content 2874 _a-0001dbef-826b-8000-9ba2-011c48011c48_56540 Setting uuids of object references.
+2016-04-07 14:52:59.027 DEBUG content 2874 _a-0001dbef-826b-8000-9ba2-011c48011c48_56540 Processing reference: [Content:id=2832,versionId=-1,name=AUT_DocumentFolder,description=,type=32,subtype=0,uuid=_a-0001dbef-826b-8000-9ba2-011c48011c48_56540,parent=2827,parentName=Automated Testing,parentType=2,log=2874,logName=AUT_DocumentFolder,state=255,visibility=35,security=15,creator=dan.austria.a,createdTimestamp=2016-04-07 01:10:18.0,updatedTimestamp=2016-04-07 01:10:18.0,size=0,lockedBy=,changesRequireApproval=false,attributes={system=0, hidden=0, ruletype=0, multiple=0, value=2831, returnType=12},partition=1,partitionName=/usr/local/appian/ae/_admin/accdocs1]
+2016-04-07 14:52:59.03 DEBUG content 2831 _a-0001dbef-826b-8000-9ba2-011c48011c48_56539 Begin transport.
+2016-04-07 14:52:59.03 DEBUG content 2831 _a-0001dbef-826b-8000-9ba2-011c48011c48_56539 Retrieving object data.
+2016-04-07 14:52:59.035 DEBUG content 2831 _a-0001dbef-826b-8000-9ba2-011c48011c48_56539 Setting uuids of object references.
+2016-04-07 14:52:59.035 DEBUG content 2831 _a-0001dbef-826b-8000-9ba2-011c48011c48_56539 Processing reference: KnowledgeFolder.forum
+2016-04-07 14:52:59.036 DEBUG content 2831 _a-0001dbef-826b-8000-9ba2-011c48011c48_56539 Processing reference: KnowledgeFolder.parent
+2016-04-07 14:52:59.038 DEBUG content 2830 _a-0001dbef-826b-8000-9ba2-011c48011c48_56538 Begin transport.
+2016-04-07 14:52:59.038 DEBUG content 2830 _a-0001dbef-826b-8000-9ba2-011c48011c48_56538 Retrieving object data.
+2016-04-07 14:52:59.043 DEBUG content 2830 _a-0001dbef-826b-8000-9ba2-011c48011c48_56538 Setting uuids of object references.
+2016-04-07 14:52:59.043 DEBUG content 2830 _a-0001dbef-826b-8000-9ba2-011c48011c48_56538 Processing reference: CommunityKnowledgeCenter.forum
+2016-04-07 14:52:59.044 DEBUG content 2830 _a-0001dbef-826b-8000-9ba2-011c48011c48_56538 Processing reference: CommunityKnowledgeCenter.parent
+2016-04-07 14:52:59.046 DEBUG content 2829 _a-0001dbef-826b-8000-9ba2-011c48011c48_56537 Begin transport.
+2016-04-07 14:52:59.046 DEBUG content 2829 _a-0001dbef-826b-8000-9ba2-011c48011c48_56537 Retrieving object data.
+2016-04-07 14:52:59.051 DEBUG content 2829 _a-0001dbef-826b-8000-9ba2-011c48011c48_56537 Setting uuids of object references.
+2016-04-07 14:52:59.051 DEBUG content 2829 _a-0001dbef-826b-8000-9ba2-011c48011c48_56537 Processing reference: Community.forum
+2016-04-07 14:52:59.052 DEBUG content 2829 _a-0001dbef-826b-8000-9ba2-011c48011c48_56537 Processing reference: Community.parent
+2016-04-07 14:52:59.054 DEBUG content 2829 _a-0001dbef-826b-8000-9ba2-011c48011c48_56537 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@345fca8[
+  ContentRole[name=readers,inherit=false,allowForAll=true]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,groupIds=[10],inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=24:SEC_PUBLIC=false,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=true
+]
+2016-04-07 14:52:59.054 DEBUG content 2829 _a-0001dbef-826b-8000-9ba2-011c48011c48_56537 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=true]
+2016-04-07 14:52:59.054 DEBUG content 2829 _a-0001dbef-826b-8000-9ba2-011c48011c48_56537 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.054 DEBUG content 2829 _a-0001dbef-826b-8000-9ba2-011c48011c48_56537 Processing reference: ContentRole[name=administrators,groupIds=[10],inherit=true,allowForAll=false]
+2016-04-07 14:52:59.055 DEBUG content 2829 _a-0001dbef-826b-8000-9ba2-011c48011c48_56537 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.055 DEBUG content 2829 _a-0001dbef-826b-8000-9ba2-011c48011c48_56537 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.055 DEBUG content 2829 _a-0001dbef-826b-8000-9ba2-011c48011c48_56537 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.055 DEBUG content 2829 _a-0001dbef-826b-8000-9ba2-011c48011c48_56537 Exporting binary resources.
+2016-04-07 14:52:59.055 DEBUG content 2829 _a-0001dbef-826b-8000-9ba2-011c48011c48_56537 Serializing object to XML.
+2016-04-07 14:52:59.056 DEBUG content 2829 _a-0001dbef-826b-8000-9ba2-011c48011c48_56537 Object transported.
+2016-04-07 14:52:59.056 DEBUG content 2830 _a-0001dbef-826b-8000-9ba2-011c48011c48_56538 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@7fc6c43[
+  ContentRole[name=readers,inherit=false,allowForAll=false]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=8:SEC_PUBLIC=false,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-04-07 14:52:59.056 DEBUG content 2830 _a-0001dbef-826b-8000-9ba2-011c48011c48_56538 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.056 DEBUG content 2830 _a-0001dbef-826b-8000-9ba2-011c48011c48_56538 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.056 DEBUG content 2830 _a-0001dbef-826b-8000-9ba2-011c48011c48_56538 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2016-04-07 14:52:59.056 DEBUG content 2830 _a-0001dbef-826b-8000-9ba2-011c48011c48_56538 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.056 DEBUG content 2830 _a-0001dbef-826b-8000-9ba2-011c48011c48_56538 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.056 DEBUG content 2830 _a-0001dbef-826b-8000-9ba2-011c48011c48_56538 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.056 DEBUG content 2830 _a-0001dbef-826b-8000-9ba2-011c48011c48_56538 Exporting binary resources.
+2016-04-07 14:52:59.056 DEBUG content 2830 _a-0001dbef-826b-8000-9ba2-011c48011c48_56538 Serializing object to XML.
+2016-04-07 14:52:59.056 DEBUG content 2830 _a-0001dbef-826b-8000-9ba2-011c48011c48_56538 Object transported.
+2016-04-07 14:52:59.056 DEBUG content 2831 _a-0001dbef-826b-8000-9ba2-011c48011c48_56539 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@355b0c50[
+  ContentRole[name=readers,inherit=false,allowForAll=false]
+  ContentRole[name=authors,groupIds=[11],inherit=false,allowForAll=false]
+  ContentRole[name=administrators,inherit=false,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=0:SEC_PUBLIC=false,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-04-07 14:52:59.056 DEBUG content 2831 _a-0001dbef-826b-8000-9ba2-011c48011c48_56539 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.056 DEBUG content 2831 _a-0001dbef-826b-8000-9ba2-011c48011c48_56539 Processing reference: ContentRole[name=authors,groupIds=[11],inherit=false,allowForAll=false]
+2016-04-07 14:52:59.059 DEBUG content 2831 _a-0001dbef-826b-8000-9ba2-011c48011c48_56539 Processing reference: ContentRole[name=administrators,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.059 DEBUG content 2831 _a-0001dbef-826b-8000-9ba2-011c48011c48_56539 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.059 DEBUG content 2831 _a-0001dbef-826b-8000-9ba2-011c48011c48_56539 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.059 DEBUG content 2831 _a-0001dbef-826b-8000-9ba2-011c48011c48_56539 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.06 DEBUG content 2831 _a-0001dbef-826b-8000-9ba2-011c48011c48_56539 Exporting binary resources.
+2016-04-07 14:52:59.06 DEBUG content 2831 _a-0001dbef-826b-8000-9ba2-011c48011c48_56539 Serializing object to XML.
+2016-04-07 14:52:59.06 DEBUG content 2831 _a-0001dbef-826b-8000-9ba2-011c48011c48_56539 Object transported.
+2016-04-07 14:52:59.06 DEBUG content 2874 _a-0001dbef-826b-8000-9ba2-011c48011c48_56540 Processing reference: Constant.forum
+2016-04-07 14:52:59.061 DEBUG content 2874 _a-0001dbef-826b-8000-9ba2-011c48011c48_56540 Processing reference: Constant.parent
+2016-04-07 14:52:59.066 DEBUG content 2874 _a-0001dbef-826b-8000-9ba2-011c48011c48_56540 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@568ea181[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-04-07 14:52:59.066 DEBUG content 2874 _a-0001dbef-826b-8000-9ba2-011c48011c48_56540 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2016-04-07 14:52:59.066 DEBUG content 2874 _a-0001dbef-826b-8000-9ba2-011c48011c48_56540 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2016-04-07 14:52:59.066 DEBUG content 2874 _a-0001dbef-826b-8000-9ba2-011c48011c48_56540 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2016-04-07 14:52:59.066 DEBUG content 2874 _a-0001dbef-826b-8000-9ba2-011c48011c48_56540 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.066 DEBUG content 2874 _a-0001dbef-826b-8000-9ba2-011c48011c48_56540 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.066 DEBUG content 2874 _a-0001dbef-826b-8000-9ba2-011c48011c48_56540 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.066 DEBUG content 2874 _a-0001dbef-826b-8000-9ba2-011c48011c48_56540 Exporting binary resources.
+2016-04-07 14:52:59.066 DEBUG content 2874 _a-0001dbef-826b-8000-9ba2-011c48011c48_56540 Serializing object to XML.
+2016-04-07 14:52:59.067 DEBUG content 2874 _a-0001dbef-826b-8000-9ba2-011c48011c48_56540 Object transported.
+2016-04-07 14:52:59.067 DEBUG content 2875 _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056 Begin transport.
+2016-04-07 14:52:59.067 DEBUG content 2875 _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056 Retrieving object data.
+2016-04-07 14:52:59.075 DEBUG content 2875 _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056 Setting uuids of object references.
+2016-04-07 14:52:59.075 DEBUG content 2875 _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056 Processing reference: [Content:id=2833,versionId=-1,name=AUT_SuggestFunction,description=,type=32,subtype=1,uuid=_a-0000dbe2-3890-8000-9ba2-011c48011c48_50056,parent=2827,parentName=Automated Testing,parentType=2,log=2875,logName=AUT_SuggestFunction,state=255,visibility=35,security=15,creator=dan.austria.a,createdTimestamp=2016-04-07 01:10:18.0,updatedTimestamp=2016-04-07 01:10:18.0,size=0,lockedBy=,changesRequireApproval=false,attributes={dep_rules=[Ljava.lang.Long;@6e6a947f, system=0, preferredEditor=legacy, hidden=0, offlineEnabled=false, ruletype=1, dep_functions=[Ljava.lang.String;@49f5244, definition=with(
+  local!input: tointeger(ri!input),
+  #"SYSTEM_SYSRULES_dataSubset"(
+    startIndex: 1,
+    batchSize: local!input,
+    totalCount: local!input,
+    data: enumerate(local!input) + 1,
+    identifiers: enumerate(local!input) + 1
+  )
+), dep_types=[Ljava.lang.String;@5e3e33d9, metadataExpr=null, parameters=[Lcom.appiancorp.suiteapi.process.TypedVariable;@4502f159, dep_variables=[[Ljava.lang.String;@7ff15cea},partition=2,partitionName=/usr/local/appian/ae/_admin/accdocs2]
+2016-04-07 14:52:59.076 DEBUG content 2875 _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056 Processing reference: FreeformRule.forum
+2016-04-07 14:52:59.076 DEBUG content 2875 _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056 Processing reference: TypedVariable[name=input,it=3,v=]
+2016-04-07 14:52:59.076 DEBUG content 2875 _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056 Processing reference: FreeformRule.parent
+2016-04-07 14:52:59.079 DEBUG content 2875 _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@3a506f53[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-04-07 14:52:59.079 DEBUG content 2875 _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2016-04-07 14:52:59.079 DEBUG content 2875 _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2016-04-07 14:52:59.079 DEBUG content 2875 _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2016-04-07 14:52:59.079 DEBUG content 2875 _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.079 DEBUG content 2875 _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.079 DEBUG content 2875 _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-04-07 14:52:59.079 DEBUG content 2875 _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056 Exporting binary resources.
+2016-04-07 14:52:59.079 DEBUG content 2875 _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056 Serializing object to XML.
+2016-04-07 14:52:59.082 DEBUG content 2875 _a-0000dbe2-3890-8000-9ba2-011c48011c48_50056 Object transported.
+2016-04-07 14:52:59.083 DEBUG processModelFolder 7 _g-0000dc59-c9a6-8000-ba62-014d98014d98_2 Begin transport.
+2016-04-07 14:52:59.083 DEBUG processModelFolder 7 _g-0000dc59-c9a6-8000-ba62-014d98014d98_2 Retrieving object data.
+2016-04-07 14:52:59.194 DEBUG processModelFolder 7 _g-0000dc59-c9a6-8000-ba62-014d98014d98_2 Setting uuids of object references.
+2016-04-07 14:52:59.194 DEBUG processModelFolder 7 _g-0000dc59-c9a6-8000-ba62-014d98014d98_2 Processing reference: ProcessModelFolder.parentFolderId
+2016-04-07 14:52:59.195 DEBUG processModelFolder 7 _g-0000dc59-c9a6-8000-ba62-014d98014d98_2 Processing reference: com.appiancorp.suiteapi.process.ProcessRoleMap@64c3c0a0[
+  Role[name=ADMIN_OWNER,groupIds=[10]]
+  Role[name=EDITOR]
+  Role[name=EXPLICIT_NONMEMBER]
+  Role[name=VIEWER,groupIds=[11]]
+  Role[name=MANAGER]
+  Role[name=INITIATOR]
+]
+2016-04-07 14:52:59.195 DEBUG processModelFolder 7 _g-0000dc59-c9a6-8000-ba62-014d98014d98_2 Processing reference: Role[name=ADMIN_OWNER,groupIds=[10]]
+2016-04-07 14:52:59.196 DEBUG processModelFolder 7 _g-0000dc59-c9a6-8000-ba62-014d98014d98_2 Processing reference: Role[name=EDITOR]
+2016-04-07 14:52:59.196 DEBUG processModelFolder 7 _g-0000dc59-c9a6-8000-ba62-014d98014d98_2 Processing reference: Role[name=EXPLICIT_NONMEMBER]
+2016-04-07 14:52:59.196 DEBUG processModelFolder 7 _g-0000dc59-c9a6-8000-ba62-014d98014d98_2 Processing reference: Role[name=VIEWER,groupIds=[11]]
+2016-04-07 14:52:59.197 DEBUG processModelFolder 7 _g-0000dc59-c9a6-8000-ba62-014d98014d98_2 Processing reference: Role[name=MANAGER]
+2016-04-07 14:52:59.197 DEBUG processModelFolder 7 _g-0000dc59-c9a6-8000-ba62-014d98014d98_2 Processing reference: Role[name=INITIATOR]
+2016-04-07 14:52:59.197 DEBUG processModelFolder 7 _g-0000dc59-c9a6-8000-ba62-014d98014d98_2 Exporting binary resources.
+2016-04-07 14:52:59.197 DEBUG processModelFolder 7 _g-0000dc59-c9a6-8000-ba62-014d98014d98_2 Serializing object to XML.
+2016-04-07 14:52:59.198 DEBUG processModelFolder 7 _g-0000dc59-c9a6-8000-ba62-014d98014d98_2 Object transported.
+2016-04-07 14:52:59.198 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Begin transport.
+2016-04-07 14:52:59.198 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Retrieving object data.
+2016-04-07 14:52:59.421 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Setting uuids of object references.
+2016-04-07 14:52:59.421 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: ProcessModelHaul.folderId
+2016-04-07 14:52:59.422 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: ProcessModelHaul.modelDashboardPageId
+2016-04-07 14:52:59.422 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: ProcessModelHaul.processDashboardPageId
+2016-04-07 14:52:59.423 DEBUG page 22 _c-0000dc87-478b-8000-f2c6-017ce6017ce6_38 Begin transport.
+2016-04-07 14:52:59.423 DEBUG page 22 _c-0000dc87-478b-8000-f2c6-017ce6017ce6_38 Retrieving object data.
+2016-04-07 14:52:59.538 DEBUG page 22 _c-0000dc87-478b-8000-f2c6-017ce6017ce6_38 Setting uuids of object references.
+2016-04-07 14:52:59.539 DEBUG page 22 _c-0000dc87-478b-8000-f2c6-017ce6017ce6_38 Processing reference: Page.group
+2016-04-07 14:52:59.539 DEBUG page 22 _c-0000dc87-478b-8000-f2c6-017ce6017ce6_38 Processing reference: com.appiancorp.suiteapi.portal.PageRoleMap@1bab5fa3[
+  Role[name=approver]
+  Role[name=editor]
+  Role[name=viewer]
+  Role[name=admin]
+]
+2016-04-07 14:52:59.539 DEBUG page 22 _c-0000dc87-478b-8000-f2c6-017ce6017ce6_38 Processing reference: Role[name=approver]
+2016-04-07 14:52:59.539 DEBUG page 22 _c-0000dc87-478b-8000-f2c6-017ce6017ce6_38 Processing reference: Role[name=editor]
+2016-04-07 14:52:59.539 DEBUG page 22 _c-0000dc87-478b-8000-f2c6-017ce6017ce6_38 Processing reference: Role[name=viewer]
+2016-04-07 14:52:59.539 DEBUG page 22 _c-0000dc87-478b-8000-f2c6-017ce6017ce6_38 Processing reference: Role[name=admin]
+2016-04-07 14:52:59.539 DEBUG page 22 _c-0000dc87-478b-8000-f2c6-017ce6017ce6_38 Exporting binary resources.
+2016-04-07 14:52:59.539 DEBUG page 22 _c-0000dc87-478b-8000-f2c6-017ce6017ce6_38 Serializing object to XML.
+2016-04-07 14:52:59.54 DEBUG page 22 _c-0000dc87-478b-8000-f2c6-017ce6017ce6_38 Object transported.
+2016-04-07 14:52:59.54 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: ProcessModel.emailAttachmentFolderId
+2016-04-07 14:52:59.54 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: ActivityClassParameter[name=pmID,it=23,v=<null>]
+2016-04-07 14:52:59.54 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: ActivityClassParameter[name=inMap,it=111,v={}]
+2016-04-07 14:52:59.54 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: ActivityClassParameter[name=procInheritsPriority,it=1,v=1]
+2016-04-07 14:52:59.54 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: ActivityClassParameter[name=pmUUID,it=3,v=]
+2016-04-07 14:52:59.54 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: ActivityClassParameter[name=isAsynchronous,it=26,v=1]
+2016-04-07 14:52:59.54 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: ActivityClassParameter[name=isTransparent,it=26,v=1]
+2016-04-07 14:52:59.54 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: ActivityClassParameter[name=inheritSecurity,it=26,v=0]
+2016-04-07 14:52:59.54 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: ActivityClassParameter[name=cancel,it=26,v=<null>]
+2016-04-07 14:52:59.54 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: FormElement[label=Question1]
+2016-04-07 14:52:59.541 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: com.appiancorp.suiteapi.process.Assignment$Assignee@2e7a5a04
+2016-04-07 14:52:59.541 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: ProcessVariable[name=cancel,it=26,v=<null>]
+2016-04-07 14:52:59.541 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: com.appiancorp.suiteapi.process.ProcessRoleMap@5e703918[
+  Role[name=ADMIN_OWNER,groupIds=[10]]
+  Role[name=EDITOR]
+  Role[name=EXPLICIT_NONMEMBER]
+  Role[name=VIEWER,groupIds=[11]]
+  Role[name=MANAGER]
+  Role[name=INITIATOR]
+]
+2016-04-07 14:52:59.541 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: Role[name=ADMIN_OWNER,groupIds=[10]]
+2016-04-07 14:52:59.542 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: Role[name=EDITOR]
+2016-04-07 14:52:59.542 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: Role[name=EXPLICIT_NONMEMBER]
+2016-04-07 14:52:59.542 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: Role[name=VIEWER,groupIds=[11]]
+2016-04-07 14:52:59.543 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: Role[name=MANAGER]
+2016-04-07 14:52:59.543 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Processing reference: Role[name=INITIATOR]
+2016-04-07 14:52:59.545 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Exporting binary resources.
+2016-04-07 14:52:59.545 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Serializing object to XML.
+2016-04-07 14:52:59.552 DEBUG processModel 12 0002dc59-cccd-8000-ba62-014d98014d98 Object transported.
+2016-04-07 14:52:59.554 DEBUG application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 Exporting binary resources.
+2016-04-07 14:52:59.554 DEBUG application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 Serializing object to XML.
+2016-04-07 14:52:59.555 DEBUG application 2835 _a-0000dcb0-c68b-8000-9ba2-011c48011c48_35063 Object transported.
