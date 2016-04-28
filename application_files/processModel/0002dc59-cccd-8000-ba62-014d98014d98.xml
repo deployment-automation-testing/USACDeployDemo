@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <processModelHaul>
-  <folderUuid>_g-0000dc9a-707d-8000-2e72-014d98014d98_2</folderUuid>
+  <folderUuid>_g-0000dc59-c9a6-8000-ba62-014d98014d98_2</folderUuid>
+  <processDashboardPageUuid>_c-0000dc87-478b-8000-f2c6-017ce6017ce6_38</processDashboardPageUuid>
   <roleMap>
     <role name="ADMIN_OWNER">
       <users/>
       <groups>
-        <groupUuid>_e-0000dc9a-7174-8000-2e72-011e94011e94_13</groupUuid>
+        <groupUuid>_e-0000dc5b-1c90-8000-ba62-011e94011e94_8</groupUuid>
       </groups>
     </role>
     <role name="EDITOR">
@@ -19,7 +20,7 @@
     <role name="VIEWER">
       <users/>
       <groups>
-        <groupUuid>_e-0000dc9a-7174-8000-2e72-011e94011e94_8</groupUuid>
+        <groupUuid>_e-0000dc59-058c-8000-ba62-011e94011e94_7</groupUuid>
       </groups>
     </role>
     <role name="MANAGER">
@@ -37,12 +38,12 @@
     xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <pm>
       <meta>
-        <uuid><![CDATA[0002dc9a-7a86-8000-2e72-014d98014d98]]></uuid>
+        <uuid><![CDATA[0002dc59-cccd-8000-ba62-014d98014d98]]></uuid>
         <name>
           <string-map>
             <pair>
               <locale country="US" lang="en" variant=""/>
-              <value><![CDATA[Application 1 Related Action]]></value>
+              <value><![CDATA[AUT Interfaces Model]]></value>
             </pair>
           </string-map>
         </name>
@@ -50,7 +51,7 @@
           <string-map>
             <pair>
               <locale country="US" lang="en" variant=""/>
-              <value><![CDATA[Process Model for Application 1 ]]></value>
+              <value><![CDATA[Simple process model to test Interface ]]></value>
             </pair>
           </string-map>
         </desc>
@@ -59,7 +60,7 @@
           <string-map>
             <pair>
               <locale country="US" lang="en" variant=""/>
-              <value><![CDATA[Application 1 Related Action]]></value>
+              <value><![CDATA[AUT Interfaces Model]]></value>
             </pair>
           </string-map>
         </process-name>
@@ -71,20 +72,15 @@
           <aex/>
         </deadline>
         <pm-notification-settings>
-          <custom-settings>true</custom-settings>
+          <custom-settings>false</custom-settings>
           <notify-initiator>false</notify-initiator>
           <notify-owner>false</notify-owner>
-          <usersandgroups>
-            <people>
-              <type>4096</type>
-              <stringId><![CDATA[_e-0000dc9a-7174-8000-2e72-011e94011e94_13]]></stringId>
-            </people>
-          </usersandgroups>
+          <usersandgroups/>
           <recipients-exp/>
         </pm-notification-settings>
         <cleanup-action>2</cleanup-action>
         <auto-archive-delay>7</auto-archive-delay>
-        <auto-delete-delay>2</auto-delete-delay>
+        <auto-delete-delay>0</auto-delete-delay>
         <timeZoneId/>
         <useProcessInitiatorTimeZone>false</useProcessInitiatorTimeZone>
       </meta>
@@ -95,15 +91,9 @@
           <required>false</required>
           <hidden>false</hidden>
         </pv>
-        <pv name="title">
-          <a:value xmlns="" xsi:type="xsd:string"/>
-          <parameter>false</parameter>
-          <required>false</required>
-          <hidden>false</hidden>
-        </pv>
       </pvs>
       <nodes>
-        <node uuid="0000dc9a-7a86-8000-2e72-014d98014d98">
+        <node uuid="0000dc59-cccd-8000-ba62-014d98014d98">
           <guiId>0</guiId>
           <owner/>
           <icon id="50"/>
@@ -208,7 +198,7 @@
           <refreshDefaultValues>false</refreshDefaultValues>
           <on-complete-keep-form-data>false</on-complete-keep-form-data>
         </node>
-        <node uuid="0001dc9a-7a86-8000-2e72-014d98014d98">
+        <node uuid="0001dc59-cccd-8000-ba62-014d98014d98">
           <guiId>1</guiId>
           <owner/>
           <icon id="51"/>
@@ -383,7 +373,7 @@
           <refreshDefaultValues>false</refreshDefaultValues>
           <on-complete-keep-form-data>false</on-complete-keep-form-data>
         </node>
-        <node uuid="0000dc9a-bbbe-8000-2e72-014d98014d98">
+        <node uuid="0000dc59-cdde-8000-ba62-014d98014d98">
           <guiId>2</guiId>
           <owner/>
           <icon id="21"/>
@@ -392,17 +382,17 @@
             <string-map>
               <pair>
                 <locale country="US" lang="en" variant=""/>
-                <value><![CDATA[User Input Task]]></value>
+                <value><![CDATA[Input Interface Test]]></value>
               </pair>
             </string-map>
           </fname>
-          <x>532</x>
+          <x>644</x>
           <y>280</y>
           <display>
             <string-map>
               <pair>
                 <locale country="US" lang="en" variant=""/>
-                <value><![CDATA[User Input Task]]></value>
+                <value><![CDATA[Input Interface Test]]></value>
               </pair>
             </string-map>
           </display>
@@ -486,26 +476,13 @@
             <name><![CDATA[User Input Task]]></name>
             <acps/>
             <custom-params>
-              <acp name="title">
-                <a:value xsi:nil="true" xsi:type="xsd:string"/>
-                <a:local-id/>
-                <a:expr/>
-                <a:required>0</a:required>
-                <a:editable>1</a:editable>
-                <a:assign-to-pv><![CDATA[title]]></a:assign-to-pv>
-                <a:input-to-activity-class>true</a:input-to-activity-class>
-                <a:hidden-from-designer>false</a:hidden-from-designer>
-                <a:generated>false</a:generated>
-                <a:enumeration/>
-                <a:customDisplayReference/>
-              </acp>
               <acp name="cancel">
                 <a:value xsi:nil="true" xsi:type="xsd:boolean"/>
                 <a:local-id/>
                 <a:expr/>
                 <a:required>0</a:required>
                 <a:editable>1</a:editable>
-                <a:assign-to-pv><![CDATA[cancel]]></a:assign-to-pv>
+                <a:assign-to-pv/>
                 <a:input-to-activity-class>true</a:input-to-activity-class>
                 <a:hidden-from-designer>false</a:hidden-from-designer>
                 <a:generated>false</a:generated>
@@ -537,20 +514,6 @@
                           <type>2</type>
                           <options/>
                           <name><![CDATA[Question1]]></name>
-                          <mapped-to><![CDATA[title]]></mapped-to>
-                          <value/>
-                          <extra><![CDATA[{}]]></extra>
-                        </form-element>
-                        <form-element>
-                          <label><![CDATA[Question2]]></label>
-                          <instructions/>
-                          <editable>true</editable>
-                          <hidden>false</hidden>
-                          <multiple>false</multiple>
-                          <required>false</required>
-                          <type>2</type>
-                          <options/>
-                          <name><![CDATA[Question2]]></name>
                           <mapped-to><![CDATA[cancel]]></mapped-to>
                           <value/>
                           <extra><![CDATA[{}]]></extra>
@@ -561,9 +524,7 @@
                       <path><![CDATA[/process/forms]]></path>
                     </jsp-form>
                     <uiExpressionForm>
-                      <expression><![CDATA[=#"_a-0000dc9a-81e8-8000-2e72-01ef9001ef90_2664"(
-title:ac!title, 
-cancel: ac!cancel)]]></expression>
+                      <expression><![CDATA[=#"30af06cc-90d4-4be8-8682-342bdfc469c8"(ac!cancel)]]></expression>
                     </uiExpressionForm>
                     <hiddenSections>16</hiddenSections>
                   </form>
@@ -609,7 +570,41 @@ cancel: ac!cancel)]]></expression>
           <pre-triggers/>
           <post-triggers/>
           <event-producers/>
-          <exception-flow/>
+          <exception-flow>
+            <timer-trigger index="0">
+              <persistentId>0000dcc0-0e80-8000-f92f-7f0000014e7a</persistentId>
+              <name><![CDATA[Timer_1]]></name>
+              <desc/>
+              <rules/>
+              <schedule absoluteDelay="false"
+                isAbsoluteOrRelative="true" isRecurring="false">
+                <interval>
+                  <minutes>30</minutes>
+                </interval>
+              </schedule>
+            </timer-trigger>
+            <connection>
+              <guiId>0</guiId>
+              <to>1</to>
+              <toObjectType>ap.gui.Node</toObjectType>
+              <fromAnchor>4</fromAnchor>
+              <toAnchor>2</toAnchor>
+              <showArrowhead>true</showArrowhead>
+              <flowLabel/>
+              <label>
+                <fontColor>#000000</fontColor>
+                <fontFamily>Arial, Helvetica, Sans-Serif</fontFamily>
+                <fontSize>12</fontSize>
+                <bold>false</bold>
+                <italics>false</italics>
+                <underline>false</underline>
+              </label>
+              <associations/>
+              <chained>false</chained>
+              <overridesAssignment>true</overridesAssignment>
+              <synchronizeData>false</synchronizeData>
+            </connection>
+          </exception-flow>
           <label>
             <fontColor>#000000</fontColor>
             <fontFamily>Arial, Helvetica, Sans-Serif</fontFamily>
@@ -645,12 +640,6 @@ cancel: ac!cancel)]]></expression>
               <dynamic-form>
                 <form-elements/>
               </dynamic-form>
-              <jsp-form>
-                <path><![CDATA[/process/forms]]></path>
-              </jsp-form>
-              <uiExpressionForm>
-                <expression/>
-              </uiExpressionForm>
               <hiddenSections>0</hiddenSections>
             </form>
           </form-config>

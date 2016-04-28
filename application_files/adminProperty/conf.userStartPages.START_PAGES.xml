@@ -2,4 +2,4 @@
 <administeredPropertyHaul xmlns:a="http://www.appian.com/ae/types/2009">
     <uuid>conf.userStartPages.START_PAGES</uuid>
     <isDefault>true</isDefault>
-</administeredPropertyHaul>
+</administeredPropertyHaul> 

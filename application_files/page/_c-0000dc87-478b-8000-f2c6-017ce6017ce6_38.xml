@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pageHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <page>
+        <name>Customd Dashboard Test</name>
+        <description></description>
+        <public>true</public>
+        <type>2</type>
+        <url></url>
+        <template>portal.template.home.1</template>
+        <zoneCount>1</zoneCount>
+        <approvalRequired>false</approvalRequired>
+        <uuid>_c-0000dc87-478b-8000-f2c6-017ce6017ce6_38</uuid>
+        <portlets/>
+    </page>
+    <roleMap>
+        <role name="approver">
+            <users/>
+            <groups/>
+        </role>
+        <role name="editor">
+            <users/>
+            <groups/>
+        </role>
+        <role name="viewer">
+            <users/>
+            <groups/>
+        </role>
+        <role name="admin">
+            <users/>
+            <groups/>
+        </role>
+    </roleMap>
+</pageHaul>
